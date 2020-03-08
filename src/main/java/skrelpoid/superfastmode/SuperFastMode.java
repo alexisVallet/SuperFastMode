@@ -22,7 +22,7 @@ import basemod.ReflectionHacks;
 public class SuperFastMode {
 
 	public static final String AUTHOR = "Skrelpoid";
-	public static final String MOD_NAME = "SuperFastMode";
+	public static final String MOD_NAME = "SimulatorMod";
 	public static final String DESCRIPTION = MOD_NAME;
 
 	public static final Logger logger = LogManager.getLogger(SuperFastMode.class.getName());
