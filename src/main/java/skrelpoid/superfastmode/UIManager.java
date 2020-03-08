@@ -16,7 +16,7 @@ import basemod.interfaces.PostInitializeSubscriber;
 
 public class UIManager implements PostInitializeSubscriber {
 	public static final String UNSAVED_SETTINGS = "Click Button to Save Settings:";
-	public static final int DELTA_SLIDER_MULTI = 10;
+	public static final int DELTA_SLIDER_MULTI = 100;
 	public static final float MIN_DELTA = 0.05f;
 
 	public static ModPanel panel;

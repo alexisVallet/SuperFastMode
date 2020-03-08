@@ -8,7 +8,7 @@ import javassist.expr.MethodCall;
 
 public class TickDurationPatches {
 
-	@SpirePatch(clz = DiscardAction.class, method = "update")
+	//@SpirePatch(clz = DiscardAction.class, method = "update")
 	public static class TickDurationPatch {
 		public static ExprEditor Instrument() {
 			return new ExprEditor() {
